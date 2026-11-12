@@ -1,0 +1,76 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Raw source data and original downloads
+data/raw/*
+!data/raw/.gitkeep
+online+retail+ii/
+*.xlsx
+*.xls
+*.zip
+
+# Large processed data files (not needed by dashboard)
+data/processed/*.gz
+data/processed/*.csv
+# Allow only manifest JSONs the dashboard reads
+!data/processed/**/manifest.json
+!data/processed/**/policy.json
+!data/processed/**/schema.json
+!data/processed/.gitkeep
+
+# Outputs: allow only what the dashboard needs
+outputs/**
+
+# Allow report JSONs
+!outputs/reports/
+!outputs/reports/.gitkeep
+!outputs/reports/phase8_validation.json
+!outputs/reports/feature_engineering_manifest.json
+
+# Allow model config (not the .joblib binary)
+!outputs/models/
+!outputs/models/.gitkeep
+!outputs/models/kmeans_configuration.json
+
+# Allow graphs/tables folders
+!outputs/graphs/
+!outputs/graphs/.gitkeep
+!outputs/tables/
+!outputs/tables/.gitkeep
+
+# Block the large table files the dashboard does NOT use
+outputs/tables/integrated_purchase_lines*
+outputs/tables/cluster_frequent_itemsets*
+outputs/tables/global_vs_cluster_comparison*
+outputs/tables/invoice_features*
+outputs/tables/invoice_category_coverage*
+outputs/tables/kmeans_cluster_assignments*
+outputs/tables/phase7_rule_variant_comparison*
+outputs/tables/phase8_rule_membership*
+outputs/tables/apriori_basket*
+outputs/tables/phase2_*
+outputs/tables/phase3_*
+
+# Allow all remaining table CSVs
+!outputs/tables/*.csv
+!outputs/tables/*.csv.gz
+
+# Notebooks are research-only
+notebooks/
+
+# Local configuration and temp files
+.env
+.env.*
+*.log
+*.tmp
+*.temp
+~$*
+.DS_Store
+Thumbs.db

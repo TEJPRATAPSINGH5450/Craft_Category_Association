@@ -1,0 +1,31 @@
+itemset_mask,itemsets,length,support,invoice_count,variant,cluster,transaction_denominator,combination
+160,"[""Home Decor & Lighting"", ""Kitchen & Tableware""]",2,0.4982663293037204,10634,high,0,21342,Home Decor & Lighting + Kitchen & Tableware
+2080,"[""Home Decor & Lighting"", ""Storage & Household Accessories""]",2,0.38628057351700873,8244,high,0,21342,Home Decor & Lighting + Storage & Household Accessories
+2176,"[""Kitchen & Tableware"", ""Storage & Household Accessories""]",2,0.3415331271670884,7289,high,0,21342,Kitchen & Tableware + Storage & Household Accessories
+4128,"[""Home Decor & Lighting"", ""Textiles & Soft Furnishings""]",2,0.32981913597600976,7039,high,0,21342,Home Decor & Lighting + Textiles & Soft Furnishings
+33,"[""Bags & Carry Accessories"", ""Home Decor & Lighting""]",2,0.31304470059038514,6681,high,0,21342,Bags & Carry Accessories + Home Decor & Lighting
+160,"[""Home Decor & Lighting"", ""Kitchen & Tableware""]",2,0.7541043414812112,10335,high,1,13705,Home Decor & Lighting + Kitchen & Tableware
+2080,"[""Home Decor & Lighting"", ""Storage & Household Accessories""]",2,0.6343670193360088,8694,high,1,13705,Home Decor & Lighting + Storage & Household Accessories
+2176,"[""Kitchen & Tableware"", ""Storage & Household Accessories""]",2,0.6137176213060926,8411,high,1,13705,Kitchen & Tableware + Storage & Household Accessories
+129,"[""Bags & Carry Accessories"", ""Kitchen & Tableware""]",2,0.5829989055089383,7990,high,1,13705,Bags & Carry Accessories + Kitchen & Tableware
+33,"[""Bags & Carry Accessories"", ""Home Decor & Lighting""]",2,0.5793506019700839,7940,high,1,13705,Bags & Carry Accessories + Home Decor & Lighting
+160,"[""Home Decor & Lighting"", ""Kitchen & Tableware""]",2,0.07249944059073618,324,high,2,4469,Home Decor & Lighting + Kitchen & Tableware
+33,"[""Bags & Carry Accessories"", ""Home Decor & Lighting""]",2,0.045424032221973595,203,high,2,4469,Bags & Carry Accessories + Home Decor & Lighting
+4224,"[""Kitchen & Tableware"", ""Textiles & Soft Furnishings""]",2,0.04117252181696129,184,high,2,4469,Kitchen & Tableware + Textiles & Soft Furnishings
+129,"[""Bags & Carry Accessories"", ""Kitchen & Tableware""]",2,0.040277466994853434,180,high,2,4469,Bags & Carry Accessories + Kitchen & Tableware
+4128,"[""Home Decor & Lighting"", ""Textiles & Soft Furnishings""]",2,0.03982993958379951,178,high,2,4469,Home Decor & Lighting + Textiles & Soft Furnishings
+160,"[""Home Decor & Lighting"", ""Kitchen & Tableware""]",2,0.5382813232124449,11488,high_medium,0,21342,Home Decor & Lighting + Kitchen & Tableware
+2080,"[""Home Decor & Lighting"", ""Storage & Household Accessories""]",2,0.4783056883141224,10208,high_medium,0,21342,Home Decor & Lighting + Storage & Household Accessories
+2176,"[""Kitchen & Tableware"", ""Storage & Household Accessories""]",2,0.4548308499672008,9707,high_medium,0,21342,Kitchen & Tableware + Storage & Household Accessories
+2208,"[""Home Decor & Lighting"", ""Kitchen & Tableware"", ""Storage & Household Accessories""]",3,0.3833286477368569,8181,high_medium,0,21342,Home Decor & Lighting + Kitchen & Tableware + Storage & Household Accessories
+129,"[""Bags & Carry Accessories"", ""Kitchen & Tableware""]",2,0.3335676131571549,7119,high_medium,0,21342,Bags & Carry Accessories + Kitchen & Tableware
+160,"[""Home Decor & Lighting"", ""Kitchen & Tableware""]",2,0.7777453484129879,10659,high_medium,1,13705,Home Decor & Lighting + Kitchen & Tableware
+2080,"[""Home Decor & Lighting"", ""Storage & Household Accessories""]",2,0.7270339292229113,9964,high_medium,1,13705,Home Decor & Lighting + Storage & Household Accessories
+2176,"[""Kitchen & Tableware"", ""Storage & Household Accessories""]",2,0.724261218533382,9926,high_medium,1,13705,Kitchen & Tableware + Storage & Household Accessories
+2208,"[""Home Decor & Lighting"", ""Kitchen & Tableware"", ""Storage & Household Accessories""]",3,0.6742794600510762,9241,high_medium,1,13705,Home Decor & Lighting + Kitchen & Tableware + Storage & Household Accessories
+129,"[""Bags & Carry Accessories"", ""Kitchen & Tableware""]",2,0.613936519518424,8414,high_medium,1,13705,Bags & Carry Accessories + Kitchen & Tableware
+160,"[""Home Decor & Lighting"", ""Kitchen & Tableware""]",2,0.08458268068919221,378,high_medium,2,4469,Home Decor & Lighting + Kitchen & Tableware
+2176,"[""Kitchen & Tableware"", ""Storage & Household Accessories""]",2,0.06399641978071156,286,high_medium,2,4469,Kitchen & Tableware + Storage & Household Accessories
+2080,"[""Home Decor & Lighting"", ""Storage & Household Accessories""]",2,0.05683598120384874,254,high_medium,2,4469,Home Decor & Lighting + Storage & Household Accessories
+129,"[""Bags & Carry Accessories"", ""Kitchen & Tableware""]",2,0.05034683374356679,225,high_medium,2,4469,Bags & Carry Accessories + Kitchen & Tableware
+33,"[""Bags & Carry Accessories"", ""Home Decor & Lighting""]",2,0.05012307003803983,224,high_medium,2,4469,Bags & Carry Accessories + Home Decor & Lighting

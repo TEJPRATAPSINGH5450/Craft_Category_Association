@@ -1,0 +1,9 @@
+variant,scope,invoices,empty_baskets,single_category_baskets,unique_invoice_category_pairs
+high,global,39516,798,5493,197254
+high,cluster_0,21342,244,2380,93694
+high,cluster_1,13705,44,483,97147
+high,cluster_2,4469,510,2630,6413
+high_medium,global,39516,298,5335,209216
+high_medium,cluster_0,21342,101,2101,100417
+high_medium,cluster_1,13705,22,460,101569
+high_medium,cluster_2,4469,175,2774,7230

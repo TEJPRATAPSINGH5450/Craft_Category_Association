@@ -1,0 +1,113 @@
+variant,scope,category,invoice_count,denominator,prevalence
+high,global,Bags & Carry Accessories,18408,39516,0.4658366231399939
+high,global,Bath & Personal Care Accessories,10825,39516,0.27393967000708574
+high,global,Craft & Sewing Supplies,10313,39516,0.2609828930053649
+high,global,Garden & Outdoor Accessories,8599,39516,0.21760805749569795
+high,global,Gift Packaging & Party Supplies,8543,39516,0.21619091001113472
+high,global,Home Decor & Lighting,28732,39516,0.7270978844012552
+high,global,Jewellery & Personal Accessories,4724,39516,0.11954651280493978
+high,global,Kitchen & Tableware,26469,39516,0.6698299423018524
+high,global,Paper & Stationery,14722,39516,0.3725579512096366
+high,global,Pet Accessories,1486,39516,0.03760502075108817
+high,global,Seasonal & Celebration Decorations,15044,39516,0.3807065492458751
+high,global,Storage & Household Accessories,19736,39516,0.49944326348820733
+high,global,Textiles & Soft Furnishings,18095,39516,0.4579157809494888
+high,global,"Toys, Games & Novelty Items",11558,39516,0.29248911833181496
+high,cluster_0,Bags & Carry Accessories,8749,21342,0.4099428357229875
+high,cluster_0,Bath & Personal Care Accessories,4551,21342,0.21324149564239528
+high,cluster_0,Craft & Sewing Supplies,4199,21342,0.19674819604535657
+high,cluster_0,Garden & Outdoor Accessories,3969,21342,0.18597132414956424
+high,cluster_0,Gift Packaging & Party Supplies,3282,21342,0.15378127635648017
+high,cluster_0,Home Decor & Lighting,15608,21342,0.7313278980414206
+high,cluster_0,Jewellery & Personal Accessories,1713,21342,0.08026426764127073
+high,cluster_0,Kitchen & Tableware,13753,21342,0.6444100834036173
+high,cluster_0,Paper & Stationery,6383,21342,0.2990816230906194
+high,cluster_0,Pet Accessories,591,21342,0.027691875175709868
+high,cluster_0,Seasonal & Celebration Decorations,7236,21342,0.3390497610345797
+high,cluster_0,Storage & Household Accessories,9879,21342,0.4628900759066629
+high,cluster_0,Textiles & Soft Furnishings,8837,21342,0.4140661606222472
+high,cluster_0,"Toys, Games & Novelty Items",4944,21342,0.23165588979477086
+high,cluster_1,Bags & Carry Accessories,8965,13705,0.6541408245165998
+high,cluster_1,Bath & Personal Care Accessories,6020,13705,0.4392557460780737
+high,cluster_1,Craft & Sewing Supplies,5909,13705,0.43115651222181683
+high,cluster_1,Garden & Outdoor Accessories,4395,13705,0.32068588106530466
+high,cluster_1,Gift Packaging & Party Supplies,5080,13705,0.37066763954761034
+high,cluster_1,Home Decor & Lighting,11787,13705,0.8600510762495439
+high,cluster_1,Jewellery & Personal Accessories,2843,13705,0.20744253921926303
+high,cluster_1,Kitchen & Tableware,11580,13705,0.8449470995986866
+high,cluster_1,Paper & Stationery,7960,13705,0.5808099233856256
+high,cluster_1,Pet Accessories,862,13705,0.06289675300985043
+high,cluster_1,Seasonal & Celebration Decorations,7459,13705,0.5442539219263043
+high,cluster_1,Storage & Household Accessories,9306,13705,0.679022254651587
+high,cluster_1,Textiles & Soft Furnishings,8629,13705,0.629624224735498
+high,cluster_1,"Toys, Games & Novelty Items",6352,13705,0.46348048157606714
+high,cluster_2,Bags & Carry Accessories,694,4469,0.15529201163571268
+high,cluster_2,Bath & Personal Care Accessories,254,4469,0.05683598120384874
+high,cluster_2,Craft & Sewing Supplies,205,4469,0.045871559633027525
+high,cluster_2,Garden & Outdoor Accessories,235,4469,0.05258447079883643
+high,cluster_2,Gift Packaging & Party Supplies,181,4469,0.0405012307003804
+high,cluster_2,Home Decor & Lighting,1337,4469,0.2991720742895502
+high,cluster_2,Jewellery & Personal Accessories,168,4469,0.037592302528529874
+high,cluster_2,Kitchen & Tableware,1136,4469,0.2541955694786306
+high,cluster_2,Paper & Stationery,379,4469,0.08480644439471918
+high,cluster_2,Pet Accessories,33,4469,0.007384202282389797
+high,cluster_2,Seasonal & Celebration Decorations,349,4469,0.07809353322891027
+high,cluster_2,Storage & Household Accessories,551,4469,0.12329380174535691
+high,cluster_2,Textiles & Soft Furnishings,629,4469,0.14074737077646005
+high,cluster_2,"Toys, Games & Novelty Items",262,4469,0.058626090848064444
+high_medium,global,Bags & Carry Accessories,19221,39516,0.48641056787124204
+high_medium,global,Bath & Personal Care Accessories,10866,39516,0.27497722441542666
+high_medium,global,Craft & Sewing Supplies,10448,39516,0.2643992306913655
+high_medium,global,Garden & Outdoor Accessories,8613,39516,0.21796234436683876
+high_medium,global,Gift Packaging & Party Supplies,8781,39516,0.2222137868205284
+high_medium,global,Home Decor & Lighting,28986,39516,0.7335256604919527
+high_medium,global,Jewellery & Personal Accessories,5718,39516,0.14470088065593684
+high_medium,global,Kitchen & Tableware,28092,39516,0.7109019131491041
+high_medium,global,Paper & Stationery,14836,39516,0.375442858588926
+high_medium,global,Pet Accessories,1486,39516,0.03760502075108817
+high_medium,global,Seasonal & Celebration Decorations,16139,39516,0.40841684381010224
+high_medium,global,Storage & Household Accessories,24098,39516,0.6098289300536491
+high_medium,global,Textiles & Soft Furnishings,18102,39516,0.4580929243850592
+high_medium,global,"Toys, Games & Novelty Items",13830,39516,0.3499848162769511
+high_medium,cluster_0,Bags & Carry Accessories,9237,21342,0.432808546527973
+high_medium,cluster_0,Bath & Personal Care Accessories,4577,21342,0.21445975072626747
+high_medium,cluster_0,Craft & Sewing Supplies,4272,21342,0.20016868147315153
+high_medium,cluster_0,Garden & Outdoor Accessories,3979,21342,0.18643988379720738
+high_medium,cluster_0,Gift Packaging & Party Supplies,3406,21342,0.15959141598725518
+high_medium,cluster_0,Home Decor & Lighting,15775,21342,0.7391528441570612
+high_medium,cluster_0,Jewellery & Personal Accessories,2085,21342,0.09769468653359573
+high_medium,cluster_0,Kitchen & Tableware,14786,21342,0.6928122950051542
+high_medium,cluster_0,Paper & Stationery,6451,21342,0.30226782869459284
+high_medium,cluster_0,Pet Accessories,591,21342,0.027691875175709868
+high_medium,cluster_0,Seasonal & Celebration Decorations,7857,21342,0.368147315153219
+high_medium,cluster_0,Storage & Household Accessories,12432,21342,0.5825133539499578
+high_medium,cluster_0,Textiles & Soft Furnishings,8842,21342,0.4143004404460688
+high_medium,cluster_0,"Toys, Games & Novelty Items",6127,21342,0.28708649611095494
+high_medium,cluster_1,Bags & Carry Accessories,9226,13705,0.6731849689894199
+high_medium,cluster_1,Bath & Personal Care Accessories,6035,13705,0.44035023713973004
+high_medium,cluster_1,Craft & Sewing Supplies,5964,13705,0.4351696461145567
+high_medium,cluster_1,Garden & Outdoor Accessories,4399,13705,0.320977745348413
+high_medium,cluster_1,Gift Packaging & Party Supplies,5190,13705,0.3786939073330901
+high_medium,cluster_1,Home Decor & Lighting,11838,13705,0.8637723458591755
+high_medium,cluster_1,Jewellery & Personal Accessories,3449,13705,0.25165997811017876
+high_medium,cluster_1,Kitchen & Tableware,11934,13705,0.870777088653776
+high_medium,cluster_1,Paper & Stationery,8004,13705,0.5840204304998176
+high_medium,cluster_1,Pet Accessories,862,13705,0.06289675300985043
+high_medium,cluster_1,Seasonal & Celebration Decorations,7887,13705,0.5754834002188982
+high_medium,cluster_1,Storage & Household Accessories,10799,13705,0.7879605983217803
+high_medium,cluster_1,Textiles & Soft Furnishings,8631,13705,0.6297701568770522
+high_medium,cluster_1,"Toys, Games & Novelty Items",7351,13705,0.5363735862823787
+high_medium,cluster_2,Bags & Carry Accessories,758,4469,0.16961288878943837
+high_medium,cluster_2,Bath & Personal Care Accessories,254,4469,0.05683598120384874
+high_medium,cluster_2,Craft & Sewing Supplies,212,4469,0.04743790557171627
+high_medium,cluster_2,Garden & Outdoor Accessories,235,4469,0.05258447079883643
+high_medium,cluster_2,Gift Packaging & Party Supplies,185,4469,0.04139628552248825
+high_medium,cluster_2,Home Decor & Lighting,1373,4469,0.30722756768852094
+high_medium,cluster_2,Jewellery & Personal Accessories,184,4469,0.04117252181696129
+high_medium,cluster_2,Kitchen & Tableware,1372,4469,0.307003803982994
+high_medium,cluster_2,Paper & Stationery,381,4469,0.0852539718057731
+high_medium,cluster_2,Pet Accessories,33,4469,0.007384202282389797
+high_medium,cluster_2,Seasonal & Celebration Decorations,395,4469,0.0883866636831506
+high_medium,cluster_2,Storage & Household Accessories,867,4469,0.19400313269187738
+high_medium,cluster_2,Textiles & Soft Furnishings,629,4469,0.14074737077646005
+high_medium,cluster_2,"Toys, Games & Novelty Items",352,4469,0.07876482434549116

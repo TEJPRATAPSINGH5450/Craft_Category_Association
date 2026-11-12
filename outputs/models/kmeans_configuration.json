@@ -1,0 +1,69 @@
+{
+  "features": [
+    "total_quantity",
+    "total_purchase_value",
+    "unique_product_count"
+  ],
+  "diagnostic_excluded_feature": "product_diversity",
+  "spearman_product_count_diversity": 0.9273382061154033,
+  "variant": "log_robust",
+  "k": 3,
+  "log1p_columns": [
+    "total_quantity",
+    "total_purchase_value",
+    "unique_product_count"
+  ],
+  "scaler": "RobustScaler",
+  "scaler_center": [
+    5.0106352940962555,
+    5.713072521563293,
+    2.772588722239781
+  ],
+  "scaler_scale": [
+    1.442647297671022,
+    1.1636944077679967,
+    1.421385680931161
+  ],
+  "kmeans_parameters": {
+    "algorithm": "lloyd",
+    "copy_x": true,
+    "init": "k-means++",
+    "max_iter": 500,
+    "n_clusters": 3,
+    "n_init": 20,
+    "random_state": 42,
+    "tol": 0.0001,
+    "verbose": 0
+  },
+  "cluster_names": {
+    "0": "middle value / middle product variety (C0)",
+    "1": "higher value / higher product variety (C1)",
+    "2": "lower value / lower product variety (C2)"
+  },
+  "sample_size": 2000,
+  "main_sample_seed": 2026,
+  "stability_seeds": [
+    42,
+    7,
+    19,
+    83,
+    2026
+  ],
+  "selection": "Primary three-feature set; clusters >=1% of invoices; full sampled label coverage; converged. Equal-weight rank sum: silhouette high, DB low, CH high, normalized elbow distance high. Tie: smaller K then variant name.",
+  "fit_population": "all 39516 invoices; descriptive in-sample analysis, not held-out generalization",
+  "pca_explained_variance_ratio": [
+    0.8366150133979384,
+    0.12288517043101968
+  ],
+  "four_feature_ari_same_variant_k": 0.3920204832269276,
+  "versions": {
+    "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "joblib": "1.6.0"
+  },
+  "source_sha256": "5847866B688B88ED974E8769910F1BD0EC057184AB7FFA3A7D0C70ACD30D5900",
+  "script_sha256": "48F3BE0B161A4F8125A8B795680EC1CEA0C3B72BCE4B3D8FE782FD2B3779AABA",
+  "threads": 2
+}

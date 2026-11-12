@@ -1,0 +1,3 @@
+variant,total_invoices,categories,source_lines_represented,eligible_category_lines,eligible_line_percentage,nonempty_invoices,nonempty_invoice_percentage,empty_invoices_retained,single_category_invoices_retained,anonymous_invoices_retained,unique_invoice_category_pairs,repeat_invoice_category_line_occurrences_collapsed
+high,39516,14,1015214,819845,80.75588004105538,38718,97.98056483449741,798,5493,2922,197254,622591
+high_medium,39516,14,1015214,953999,93.97023681706517,39218,99.24587508857172,298,5335,2922,209216,744783

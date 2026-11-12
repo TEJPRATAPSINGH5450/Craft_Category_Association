@@ -1,0 +1,5 @@
+scope,shared,high_only,high_medium_only,jaccard
+global,4377,98,379,0.9017305315203955
+cluster_0,1308,11,440,0.7436043206367254
+cluster_1,7497,99,412,0.9361888111888111
+cluster_2,0,0,0,

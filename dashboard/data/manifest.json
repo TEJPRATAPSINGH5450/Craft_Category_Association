@@ -1,0 +1,20 @@
+{
+  "assets": {
+    "dashboard/data/pca_coordinates.csv.gz": "93FBCCE2F61559EB30A908E562CAC0DDFA0859370716AA2D356A56C36A885DE6",
+    "dashboard/data/category_prevalence.csv": "3BE45A52385C5FBDE3FCF646E717BED2EF80178DDC5115FB57DF58A50138874A"
+  },
+  "pca": {
+    "explained_variance_ratio": [
+      0.8366150133979384,
+      0.12288517043101968
+    ],
+    "purpose": "display only; saved preprocessing.transform, existing cluster labels; no KMeans fit"
+  },
+  "source_hashes": {
+    "outputs\\models\\kmeans_model.joblib": "4A205312BBB328BB0394D882F1687F4927B6888CD745202BCA48C2AA55F0B241",
+    "outputs\\tables\\invoice_features_raw.csv.gz": "5847866B688B88ED974E8769910F1BD0EC057184AB7FFA3A7D0C70ACD30D5900",
+    "outputs\\tables\\kmeans_cluster_assignments.csv": "C78B17FB408023169715DB0FFA44241685DE995EB78397851AA20F87B8ACDB51"
+  },
+  "protected_file_count": 260,
+  "source_preservation_verified": true
+}

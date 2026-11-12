@@ -1,0 +1,50 @@
+No broken requirements found.
+{
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\.venv\\Scripts\\python.exe",
+  "environment": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\.venv",
+  "pip": "26.3",
+  "packages": {
+    "pandas": {
+      "version": "3.1.1",
+      "import": "PASS"
+    },
+    "numpy": {
+      "version": "2.5.4",
+      "import": "PASS"
+    },
+    "matplotlib": {
+      "version": "3.11.2",
+      "import": "PASS"
+    },
+    "seaborn": {
+      "version": "0.13.2",
+      "import": "PASS"
+    },
+    "scikit-learn": {
+      "version": "1.9.1",
+      "import": "PASS"
+    },
+    "mlxtend": {
+      "version": "0.25.0",
+      "import": "PASS"
+    },
+    "openpyxl": {
+      "version": "3.1.5",
+      "import": "PASS"
+    },
+    "jupyter": {
+      "version": "1.1.1",
+      "import": "PASS"
+    },
+    "ipykernel": {
+      "version": "7.4.0",
+      "import": "PASS"
+    },
+    "scipy": {
+      "version": "1.18.1",
+      "import": "PASS"
+    }
+  },
+  "algorithm_entrypoint_imports": "PASS (no algorithms executed)"
+}

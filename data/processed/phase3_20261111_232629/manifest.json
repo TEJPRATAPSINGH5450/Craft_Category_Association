@@ -1,0 +1,154 @@
+{
+  "run_id": "phase3_20261111_232629",
+  "policy_version": "phase3-v1",
+  "source": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\raw\\online_retail_II.xlsx",
+  "sha256_before": "BCBE73B35F5B7BABF197FB0CB983A11F5D9FF929078D4AA53D171B1F2DF2E980",
+  "sha256_after": "BCBE73B35F5B7BABF197FB0CB983A11F5D9FF929078D4AA53D171B1F2DF2E980",
+  "source_unchanged": true,
+  "original_lines": 1067371,
+  "canonical_lines": 1044848,
+  "cross_sheet_copies_archived": 22523,
+  "within_source_exact_repeat_occurrences_preserved": 11812,
+  "cleaned_purchase_lines": 1015214,
+  "retention_pct_original": 95.11350786183998,
+  "retention_pct_canonical": 97.16379798784129,
+  "supported_zero_price_purchases": 126,
+  "recovered_descriptions_canonical": 3485,
+  "all_checks_passed": true,
+  "validation_check_count": 69,
+  "datasets": [
+    {
+      "dataset": "cleaned_purchase_lines",
+      "overlapping_view": false,
+      "lines": 1015214,
+      "unique_invoices": 39516,
+      "unique_products": 4896,
+      "unique_customers": 5852,
+      "missing_customer_id": 226953,
+      "missing_description_raw": 0
+    },
+    {
+      "dataset": "return_review",
+      "overlapping_view": false,
+      "lines": 21038,
+      "unique_invoices": 10470,
+      "unique_products": 4024,
+      "unique_customers": 2445,
+      "missing_customer_id": 3396,
+      "missing_description_raw": 2633
+    },
+    {
+      "dataset": "operational_adjustments",
+      "overlapping_view": false,
+      "lines": 4817,
+      "unique_invoices": 4642,
+      "unique_products": 377,
+      "unique_customers": 641,
+      "missing_customer_id": 2261,
+      "missing_description_raw": 34
+    },
+    {
+      "dataset": "unresolved_records",
+      "overlapping_view": false,
+      "lines": 3779,
+      "unique_invoices": 3033,
+      "unique_products": 1299,
+      "unique_customers": 584,
+      "missing_customer_id": 2677,
+      "missing_description_raw": 1608
+    },
+    {
+      "dataset": "duplicate_audit",
+      "overlapping_view": false,
+      "lines": 22523,
+      "unique_invoices": 1088,
+      "unique_products": 2481,
+      "unique_customers": 622,
+      "missing_customer_id": 7720,
+      "missing_description_raw": 107
+    },
+    {
+      "dataset": "missing_customer_id",
+      "overlapping_view": true,
+      "lines": 235287,
+      "unique_invoices": 8752,
+      "unique_products": 5177,
+      "unique_customers": 0,
+      "missing_customer_id": 235287,
+      "missing_description_raw": 4275
+    },
+    {
+      "dataset": "zero_price_review",
+      "overlapping_view": true,
+      "lines": 6024,
+      "unique_invoices": 5379,
+      "unique_products": 2971,
+      "unique_customers": 51,
+      "missing_customer_id": 5954,
+      "missing_description_raw": 4275
+    }
+  ],
+  "files": [
+    {
+      "dataset": "cleaned_purchase_lines",
+      "path": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\processed\\phase3_20261111_232629\\cleaned_purchase_lines.csv.gz",
+      "lines": 1015214,
+      "sha256": "38790E71FEDCD475C98F1BFC2C2D09B934EA7B4DD5F15A2702966E077FF5D7F4",
+      "roundtrip_validated": true
+    },
+    {
+      "dataset": "return_review",
+      "path": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\processed\\phase3_20261111_232629\\return_review.csv.gz",
+      "lines": 21038,
+      "sha256": "9075C2508724843CD7C660AF62494F76436F1D58B9556E7D8302DC1DD7883B4E",
+      "roundtrip_validated": true
+    },
+    {
+      "dataset": "operational_adjustments",
+      "path": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\processed\\phase3_20261111_232629\\operational_adjustments.csv.gz",
+      "lines": 4817,
+      "sha256": "FFC243240533DC461C7151B9982D2CADC13E73049F23D4647857564DD432C579",
+      "roundtrip_validated": true
+    },
+    {
+      "dataset": "unresolved_records",
+      "path": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\processed\\phase3_20261111_232629\\unresolved_records.csv.gz",
+      "lines": 3779,
+      "sha256": "0670711406CD6EECB477FE886EFDFC58C5DBC901CE8542556E15E064808777CD",
+      "roundtrip_validated": true
+    },
+    {
+      "dataset": "duplicate_audit",
+      "path": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\processed\\phase3_20261111_232629\\duplicate_audit.csv.gz",
+      "lines": 22523,
+      "sha256": "FF442CED154EF4A7879FFEB9EA037162C72181EF1F691015C7F675DCECE82FCD",
+      "roundtrip_validated": true
+    },
+    {
+      "dataset": "missing_customer_id",
+      "path": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\processed\\phase3_20261111_232629\\missing_customer_id.csv.gz",
+      "lines": 235287,
+      "sha256": "B24CD891118C83A6B15A36984BDC16092323677D633810B7F91C17FA3B6E1F58",
+      "roundtrip_validated": true
+    },
+    {
+      "dataset": "zero_price_review",
+      "path": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\processed\\phase3_20261111_232629\\zero_price_review.csv.gz",
+      "lines": 6024,
+      "sha256": "5EB74A923ABB5A8EC1499F7A4286F561AEDC982E73581728D4E5612D804D0873",
+      "roundtrip_validated": true
+    },
+    {
+      "dataset": "row_audit",
+      "path": "C:\\Users\\aftab\\Desktop\\SuperwiseProject\\data\\processed\\phase3_20261111_232629\\row_audit.csv.gz",
+      "lines": 1067371,
+      "sha256": "94E52B5550F5ECE2F22A42D5581DC75B3D60EA0C479E74BF35BD95768E1717C5",
+      "roundtrip_validated": true
+    }
+  ],
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4",
+  "source_code_sha256": "235A97BE4C7EF1D92E3FA5075F6108F3B49C7EAA14AA8F3019B8008E922E74A4",
+  "phase4_authorized": false
+}

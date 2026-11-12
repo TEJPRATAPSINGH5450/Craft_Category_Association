@@ -1,0 +1,13 @@
+variant,scope_a,scope_b,shared,only_a,only_b,union,jaccard
+high,global,cluster_0,1319,3156,0,4475,0.2947486033519553
+high,global,cluster_1,4475,0,3121,7596,0.5891258557135335
+high,global,cluster_2,0,4475,0,4475,0.0
+high,cluster_0,cluster_1,1319,0,6277,7596,0.17364402317008953
+high,cluster_0,cluster_2,0,1319,0,1319,0.0
+high,cluster_1,cluster_2,0,7596,0,7596,0.0
+high_medium,global,cluster_0,1748,3008,0,4756,0.3675357443229605
+high_medium,global,cluster_1,4756,0,3153,7909,0.6013402452901757
+high_medium,global,cluster_2,0,4756,0,4756,0.0
+high_medium,cluster_0,cluster_1,1748,0,6161,7909,0.22101403464407637
+high_medium,cluster_0,cluster_2,0,1748,0,1748,0.0
+high_medium,cluster_1,cluster_2,0,7909,0,7909,0.0
