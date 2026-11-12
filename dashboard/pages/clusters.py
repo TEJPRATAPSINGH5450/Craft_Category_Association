@@ -20,13 +20,13 @@ with ct:
     status=st.multiselect('Rule membership',['Shared','Cluster only','Global only'],default=['Shared','Cluster only','Global only'],key='rule_membership')
     view=compared[compared.status.isin(status)]
     st.download_button('Download current comparison',download_csv(view),f'cluster_{cluster}_comparison.csv','text/csv')
-    st.dataframe(view,hide_index=True,width='stretch')
+    st.dataframe(view,hide_index=True,use_container_width=True)
     st.caption('Both populations use the same live filters. Blank metrics mean that side did not meet the filters; they are not zero. Deltas are provided only for shared filtered rules. These overlapping populations are not independent statistical samples.')
 with pt:
     categories=csv('dashboard/data/category_prevalence.csv')
     selected=categories[(categories.variant==v)&categories.scope.isin(['global',f'cluster_{cluster}'])]
     fig=bar(selected,'prevalence','category',color='scope',orientation='h',height=600)
     fig.update_layout(barmode='group'); fig.update_xaxes(tickformat='.0%',title='Fraction of invoices containing category')
-    st.plotly_chart(fig,width='stretch')
+    st.plotly_chart(fig,use_container_width=True)
 note()
 

@@ -20,7 +20,7 @@ with tabs[0]:
     mapping=csv('outputs/tables/product_category_mapping.csv',columns=['StockCode','Original Description','Assigned Category','Confidence Level','Review Status','Classification Reason'])
     search=st.text_input('Search product descriptions or StockCodes',key='product_search')
     if search: mapping=mapping[mapping['Original Description'].str.contains(search,case=False,regex=False,na=False)|mapping.StockCode.str.contains(search,case=False,regex=False,na=False)]
-    st.dataframe(mapping,hide_index=True,width='stretch')
+    st.dataframe(mapping,hide_index=True,use_container_width=True)
 with tabs[1]:
     st.markdown('''#### K-Means
 Invoice-level quantity, purchase value and unique product count are transformed with log1p and RobustScaler. K=2–10 and four scaling variants were compared, alongside a four-feature sensitivity experiment. K=3 was selected with multiple internal metrics and a minimum cluster-size criterion. Diversity remains a profile measure because it overlaps strongly with product count.

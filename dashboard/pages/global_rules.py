@@ -19,6 +19,6 @@ with items_tab:
     eligible['Categories']=eligible.itemsets.map(lambda x:' + '.join(json.loads(x)))
     st.caption('Itemsets use the support and search filters only. Confidence and lift describe rules, not itemsets. Itemsets have no length cap.')
     st.download_button('Download filtered itemsets',download_csv(eligible),'global_itemsets.csv','text/csv')
-    st.dataframe(eligible[['Categories','length','support','invoice_count']].sort_values('support',ascending=False),hide_index=True,width='stretch')
+    st.dataframe(eligible[['Categories','length','support','invoice_count']].sort_values('support',ascending=False),hide_index=True,use_container_width=True)
 note()
 

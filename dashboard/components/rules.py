@@ -24,7 +24,7 @@ def show_table(df,key):
         return
     display=df[['antecedent','consequent','invoice_count','support','confidence','lift','leverage','conviction']].copy()
     display['support']*=100; display['confidence']*=100
-    st.dataframe(display,width='stretch',hide_index=True,column_config={
+    st.dataframe(display,use_container_width=True,hide_index=True,column_config={
         'antecedent':'Antecedent','consequent':'Consequent','invoice_count':'Joint invoices',
         'support':st.column_config.NumberColumn('Support (%)',format='%.2f'),
         'confidence':st.column_config.NumberColumn('Confidence (%)',format='%.2f'),
@@ -39,13 +39,13 @@ def rule_charts(df,key):
     a,b=st.columns([1,1])
     with a:
         st.subheader('Support meets confidence')
-        st.plotly_chart(scatter_rules(df),width='stretch',key=key+'_scatter')
+        st.plotly_chart(scatter_rules(df),use_container_width=True,key=key+'_scatter')
     with b:
         st.subheader('Category association network')
         pairs=df[df.itemset_length.eq(2)].nlargest(15,['lift','support'])
         if pairs.empty: st.info('No single-category → single-category rules match the filters.')
         else:
-            st.plotly_chart(network(df),width='stretch',key=key+'_network')
+            st.plotly_chart(network(df),use_container_width=True,key=key+'_network')
             nodes=sorted(set(pairs.antecedent)|set(pairs.consequent))
             with st.expander('Network key and interpretation'):
                 st.write('\n\n'.join(f'{i+1}. {n}' for i,n in enumerate(nodes)))

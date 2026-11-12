@@ -1,0 +1,3 @@
+variant,invoices,categories,empty_baskets,nonempty_baskets,single_category_baskets,unique_invoice_category_pairs
+high,39516,14,798,38718,5493,197254
+high_medium,39516,14,298,39218,5335,209216

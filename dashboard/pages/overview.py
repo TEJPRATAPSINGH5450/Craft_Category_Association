@@ -15,7 +15,7 @@ left,right=st.columns([1.55,1])
 with left:
     st.subheader('Category footprint')
     cat=csv('outputs/tables/phase7_category_frequencies.csv'); cat=cat[cat.variant.eq(v)].sort_values('invoice_count')
-    st.plotly_chart(bar(cat,'invoice_count','category',orientation='h',height=520),width='stretch')
+    st.plotly_chart(bar(cat,'invoice_count','category',orientation='h',height=520),use_container_width=True)
     st.caption('Invoices containing each category; category counts overlap. Denominator: all 39,516 invoices.')
 with right:
     st.subheader('What the research shows')
