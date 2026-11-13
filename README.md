@@ -120,3 +120,5 @@ Verified worksheets: `Year 2009-2010` and `Year 2010-2011`. Verified columns: In
 Never edit or overwrite raw data. Write derived datasets to `data/processed/`. Keep data local and out of GitHub and other external services. Record parameters, seeds, input hashes, dependency versions, and evaluation decisions in subsequent phases. Never fabricate results or present synthetic data as genuine transactions.
 
 See `PROJECT_INSTRUCTIONS.md` for phase boundaries and `docs/environment_report.md` for initialization verification.
+#   C r a f t _ C a t e g o r y _ A s s o c i a t i o n  
+ 
